@@ -72,7 +72,7 @@ spam(){
         loading
         clear
         troll
-        echo "Troll Spam SMS"
+        echo "Tool Spam SMS"
         echo
         echo "Silahkan masukan nomor telp target"
         echo contoh 0812345678

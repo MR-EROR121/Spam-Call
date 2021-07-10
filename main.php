@@ -47,3 +47,5 @@ class MyCall {
 			echo $e->getMessage();}}}
 
 new MyCall
+
+?>

